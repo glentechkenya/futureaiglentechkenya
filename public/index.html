@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GlenAI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  background: radial-gradient(circle, #200040, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+img {
+  width: 150px;
+  animation: glow 2s infinite;
+}
+@keyframes glow {
+  0% { opacity: .4; }
+  50% { opacity: 1; }
+  100% { opacity: .4; }
+}
+</style>
+<script>
+setTimeout(() => {
+  window.location.href = "select.html";
+}, 5000);
+</script>
+</head>
+<body>
+  <img src="assets/logo.png" alt="GlenAI Logo">
+</body>
+</html>
