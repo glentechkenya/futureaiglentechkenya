@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>GlenAI</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body {
   background: radial-gradient(circle, #200040, #000);
@@ -12,23 +13,27 @@ body {
   align-items: center;
   height: 100vh;
 }
-img {
-  width: 150px;
+
+.logo {
+  width: 180px;
   animation: glow 2s infinite;
 }
+
 @keyframes glow {
-  0% { opacity: .4; }
-  50% { opacity: 1; }
-  100% { opacity: .4; }
+  0% { opacity: 0.4; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0.4; transform: scale(0.95); }
 }
 </style>
+
 <script>
 setTimeout(() => {
   window.location.href = "select.html";
 }, 5000);
 </script>
 </head>
+
 <body>
-  <img src="assets/logo.png" alt="GlenAI Logo">
+  <img src="mjsb8hpnPixazoAi.png" class="logo" alt="GlenAI Logo">
 </body>
 </html>
