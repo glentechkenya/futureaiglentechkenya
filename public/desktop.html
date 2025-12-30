@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlenAI Desktop</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="chat-container">
+  <div class="header">
+    🤖 GlenAI (Desktop)
+    <button class="clear-btn" onclick="clearChat()">🧹 Clear</button>
+  </div>
+
+  <div class="chat-box" id="chat"></div>
+
+  <div class="input-area">
+    <input id="msg" placeholder="Ask GlenAI anything...">
+    <button onclick="send()">Send</button>
+  </div>
+</div>
+
+<script src="js/chat.js"></script>
+</body>
+</html>
